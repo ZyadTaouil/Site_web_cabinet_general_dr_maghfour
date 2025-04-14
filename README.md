@@ -43,7 +43,7 @@ npm run dev
 yarn dev
 ```
 
-Le site sera accessible sur [http://localhost:5173](http://localhost:5173).
+Le site sera accessible sur https://cabinet-dr-maghfour.ma
 
 ### Build production
 

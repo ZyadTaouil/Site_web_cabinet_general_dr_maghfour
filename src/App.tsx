@@ -19,8 +19,8 @@ function AppContent() {
 
   // Base URL using the specified domain
   const baseUrl = process.env.NODE_ENV === 'production'
-    ? 'https://cabinet-general-maghfour.ma'
-    : 'http://localhost:3000';
+    ? 'https://cabinet-dr-maghfour.ma'
+    : 'http://localhost:5173';
 
   // Current path - for SPAs with language paths
   const canonicalUrl = `${baseUrl}${language !== 'fr' ? `/${language}` : ''}`;
@@ -59,8 +59,8 @@ function AppContent() {
             "@type": "MedicalBusiness",
             "name": "Dr. Samira Maghfour - Cabinet Médical",
             "image": "https://res.cloudinary.com/hh9gnin1v/image/upload/c_fit,h_600,w_800/v1585577294/5e7dc5fab91f8c0031d66e7a_photo_1.png",
-            "@id": "https://cabinet-general-maghfour.ma",
-            "url": "https://cabinet-general-maghfour.ma",
+            "@id": "https://cabinet-dr-maghfour.ma",
+            "url": "https://cabinet-dr-maghfour.ma",
             "telephone": "05 24 30 21 30",
             "priceRange": "$$",
             "address": {
