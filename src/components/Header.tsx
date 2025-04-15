@@ -12,11 +12,11 @@ export function Header() {
   return <header className="bg-white shadow-sm sticky top-0 z-[999] header">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center py-4">
-        <div className="flex items-center">
+        <div className="flex justify-start items-center">
           <img
             src="https://i.postimg.cc/s2XJYJ0w/Cabinet-Samira-Maghfour.png"
             alt={language === 'ar' ? 'شعار عيادة الطب العام للدكتورة سميرة مغفور' : 'Logo du Cabinet de Médecine générale Dr. Samira Maghfour'}
-            className="h-48 md:h-52" 
+            className="h-28 md:h-52 -ml-4 md:ml-0" 
           />
         </div>
         
