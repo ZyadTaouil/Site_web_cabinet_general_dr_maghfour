@@ -3,18 +3,18 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cabinet-dr-maghfour.ma/</loc>
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2025-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://your-domain.com/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://your-domain.com/ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cabinet-dr-maghfour.ma/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cabinet-dr-maghfour.ma/ar"/>
   </url>
   <url>
     <loc>https://cabinet-dr-maghfour.ma/ar</loc>
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2025-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://your-domain.com/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://your-domain.com/ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cabinet-dr-maghfour.ma/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cabinet-dr-maghfour.ma/ar"/>
   </url>
 </urlset>

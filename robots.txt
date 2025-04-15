@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cabinet-dr-maghfour.ma/sitemap.xml

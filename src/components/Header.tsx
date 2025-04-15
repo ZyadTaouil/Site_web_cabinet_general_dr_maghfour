@@ -11,17 +11,17 @@ export function Header() {
   
   return <header className="bg-white shadow-sm sticky top-0 z-[999] header">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex justify-between items-center py-4">
+      <div className="flex justify-between items-center">
         <div className="flex justify-start items-center">
           <img
             src="https://i.postimg.cc/s2XJYJ0w/Cabinet-Samira-Maghfour.png"
             alt={language === 'ar' ? 'شعار عيادة الطب العام للدكتورة سميرة مغفور' : 'Logo du Cabinet de Médecine générale Dr. Samira Maghfour'}
-            className="h-28 md:h-52 -ml-4 md:ml-0" 
+            className="h-28 md:h-52 -ml-4" 
           />
         </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-4 lg:space-x-8">
           <LanguageSwitcher />
           <a href="#services" className="text-gray-700 hover:text-primary-500">
             {t.nav.services}
