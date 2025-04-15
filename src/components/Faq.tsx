@@ -3,9 +3,6 @@ import { ChevronDownIcon, ChevronUpIcon } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
 
-// Update your translations file to include these FAQs
-// This component assumes you've added a faq section to your translations
-
 export function Faq() {
   const { language } = useLanguage();
   const t = translations[language];

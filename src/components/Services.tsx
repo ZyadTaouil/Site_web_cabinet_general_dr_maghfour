@@ -1,4 +1,3 @@
-import React from 'react';
 import { StethoscopeIcon, HeartPulseIcon, ActivityIcon, EyeIcon, BoxIcon } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
