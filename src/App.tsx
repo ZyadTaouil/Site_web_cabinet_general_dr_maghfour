@@ -11,7 +11,6 @@ const Services = lazy(() => import('./components/Services').then(module => ({ de
 const Reviews = lazy(() => import('./components/Reviews').then(module => ({ default: module.Reviews })));
 const Contact = lazy(() => import('./components/Contact').then(module => ({ default: module.Contact })));
 const Faq = lazy(() => import('./components/Faq').then(module => ({ default: module.Faq }))); // Import FAQ
-const Footer = lazy(() => import('./components/Footer').then(module => ({ default: module.Footer })));
 
 function AppContent() {
   const { language } = useLanguage();
@@ -105,9 +104,6 @@ function AppContent() {
             <Reviews />
           </Suspense>
         </main>
-        <Suspense fallback={<div className="py-8 bg-primary-800"></div>}>
-          <Footer />
-        </Suspense>
       </div>
     </>
   );

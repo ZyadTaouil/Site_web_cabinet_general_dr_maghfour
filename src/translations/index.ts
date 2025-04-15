@@ -97,7 +97,7 @@ export const translations = {
       questions: [
         {
           question: "Quels types de consultations médicales sont proposés?",
-          answer: "Le Dr. Samira Maghfour propose des consultations de médecine générale pour tous les âges, incluant diagnostics, traitements, prévention et suivi médical. La docteure est également spécialisée en diabétologie et nutrithérapie."
+          answer: "Le Dr. Samira Maghfour propose des consultations de médecine générale pour tous les âges, incluant diagnostics, traitements, prévention et suivi médical. La docteure est également spécialisée en Su Jok thérapie, diabétologie et nutrithérapie."
         },
         {
           question: "Est-il nécessaire de prendre rendez-vous à l'avance?",
@@ -110,10 +110,6 @@ export const translations = {
         {
           question: "En quoi consiste l'examen ophtalmologique pour le permis de conduire?",
           answer: "L'examen ophtalmologique pour le permis de conduire comprend une évaluation de l'acuité visuelle, du champ visuel et de la vision des couleurs. Le Dr. Maghfour délivre ensuite le certificat médical nécessaire pour l'obtention ou le renouvellement du permis."
-        },
-        {
-          question: "Comment se déroule une consultation d'échographie?",
-          answer: "Lors d'une consultation d'échographie générale, le Dr. Maghfour utilise un équipement moderne pour visualiser les organes internes de manière non invasive. L'examen est indolore et dure généralement entre 15 et 30 minutes selon la zone examinée."
         },
         {
           question: "Comment se passe le suivi des patients diabétiques?",

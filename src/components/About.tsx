@@ -1,5 +1,4 @@
-import React from 'react';
-import { Award, GraduationCap, HeartHandshake, Star, Clock, Users } from 'lucide-react';
+import { Award, GraduationCap, HeartHandshake, Star, Clock } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
 

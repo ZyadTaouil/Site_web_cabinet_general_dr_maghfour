@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { MenuIcon, XIcon, PhoneIcon } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
@@ -16,7 +16,7 @@ export function Header() {
           <img
             src="https://i.postimg.cc/s2XJYJ0w/Cabinet-Samira-Maghfour.png"
             alt={language === 'ar' ? 'شعار عيادة الطب العام للدكتورة سميرة مغفور' : 'Logo du Cabinet de Médecine générale Dr. Samira Maghfour'}
-            className="h-36 md:h-40" 
+            className="h-48 md:h-52" 
           />
         </div>
         
