@@ -1,3 +1,4 @@
+import GoogleReviewsWidget from 'google-reviews-widget';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
 
@@ -15,6 +16,8 @@ export function Reviews() {
           <p className="mt-4 text-lg text-gray-600">{t.reviews.subtitle}</p>
         </div>
       </div>
+
+      <GoogleReviewsWidget instanceId='MxIhF2O3Jf8HXgmPLlsR' />
     </section>
   );
 }
