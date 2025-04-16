@@ -78,7 +78,7 @@ export function Hero() {
                   <p className="text-sm font-medium text-gray-900">
                     {language === 'ar' ? 'مواعيد مرنة' : 'Horaires flexibles'}
                   </p>
-                  <p className="text-xs text-gray-600">Lun-Ven: 9h-17h | Sam: 9h-12h30</p>
+                  <p className="text-xs text-gray-600">Lun-Ven: 9h-15h | Sam: 9h-12h30</p>
                 </div>
               </div>
             </div>

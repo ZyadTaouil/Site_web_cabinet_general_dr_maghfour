@@ -107,8 +107,8 @@ export function About() {
                 </div>
                 <p className="text-gray-600">
                   {language === 'ar' 
-                    ? 'من الإثنين إلى الجمعة من 9 صباحًا حتى 5 مساءً والسبت من 9 صباحًا حتى 12:30 ظهرًا' 
-                    : 'Du lundi au vendredi de 9h à 17h et le samedi de 9h à 12h30'}
+                    ? 'من الإثنين إلى الجمعة من 9 صباحًا حتى 3 مساءً والسبت من 9 صباحًا حتى 12:30 ظهرًا' 
+                    : 'Du lundi au vendredi de 9h à 15h et le samedi de 9h à 12h30'}
                 </p>
               </div>
             </div>
