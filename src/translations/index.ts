@@ -1,7 +1,7 @@
 export const translations = {
   fr: {
     meta: {
-      keywords: "médecin généraliste, cabinet médical, Marrakech, échographie, diabétologie, nutrithérapie, permis de conduire, consultation médicale, Dr. Samira Maghfour, médecine générale"
+      keywords: "médecin généraliste, cabinet médical, Marrakech, Maghfour, Docteur Maghfour, échographie, diabétologie, nutrithérapie, permis de conduire, consultation médicale, Dr. Samira Maghfour, médecine générale"
     },
     nav: {
       services: "Services",
@@ -120,7 +120,7 @@ export const translations = {
   },
   ar: {
     meta: {
-      keywords: "طبيب عام, عيادة طبية, مراكش, الموجات فوق الصوتية, علاج السكري, العلاج الغذائي, فحص النظر لرخصة القيادة, استشارة طبية, د. سميرة مغفور"
+      keywords: "طبيب عام, عيادة طبية, مراكش, الموجات فوق الصوتية, علاج السكري, العلاج الغذائي, فحص النظر لرخصة القيادة, استشارة طبية, مغفور  , طبيبة , د. سميرة مغفور"
     },
     nav: {
       services: "الخدمات",
