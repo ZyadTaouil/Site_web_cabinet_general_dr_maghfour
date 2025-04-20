@@ -14,7 +14,7 @@ export function Header() {
       <div className="flex justify-between items-center">
         <div className="flex justify-start items-center">
           <img
-            src="https://i.postimg.cc/s2XJYJ0w/Cabinet-Samira-Maghfour.png"
+            src="/img/Cabinet-Samira-Maghfour.png"
             alt={language === 'ar' ? 'شعار عيادة الطب العام للدكتورة سميرة مغفور' : 'Logo du Cabinet de Médecine générale Dr. Samira Maghfour'}
             className="h-28 md:h-52 -ml-4" 
           />

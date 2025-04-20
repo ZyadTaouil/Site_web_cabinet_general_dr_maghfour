@@ -63,7 +63,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative z-10 bg-white p-3 rounded-2xl shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
               <img 
-                src="https://i.postimg.cc/13r1DpQL/happy-family.jpg" 
+                src="/img/happy-family.jpg" 
                 alt={language === 'ar' ? 'عيادة طبية حديثة ومرحبة' : 'Cabinet médical moderne et accueillant'} 
                 className="w-full h-auto object-cover rounded-xl"
               />

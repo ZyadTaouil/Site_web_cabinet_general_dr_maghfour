@@ -22,8 +22,8 @@ export function About() {
             <div className="flex flex-col items-center">
               <div className="rounded-xl overflow-hidden border-4 border-white shadow-xl mb-6 w-72 h-80 relative group">
                 <img
-                  src="https://res.cloudinary.com/hh9gnin1v/image/upload/c_fit,h_600,w_800/v1585577294/5e7dc5fab91f8c0031d66e7a_photo_1.png"
-                  alt={`Dr. ${t.about.title}, médecin généraliste à Marrakech`}
+                  src="/img/medecin_stethoscope.png"
+                  alt={`${t.about.title}, médecin généraliste à Marrakech`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
