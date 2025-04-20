@@ -48,6 +48,9 @@ export function Header() {
         <button 
           className="md:hidden rounded-md p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none" 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={language === 'ar' ? 'قائمة التنقل' : 'Menu de navigation'}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-menu"
         >
           {isMenuOpen ? <XIcon className="h-6 w-6" aria-hidden="true" /> : <MenuIcon className="h-6 w-6" aria-hidden="true" />}
         </button>
@@ -55,7 +58,7 @@ export function Header() {
     </div>
     
     {/* Mobile Navigation */}
-    {isMenuOpen && <div className="md:hidden bg-white border-t border-gray-200">
+    {isMenuOpen && <div className="md:hidden bg-white border-t border-gray-200" id="mobile-menu">
       <div className="px-2 pt-2 pb-3 space-y-1">
         <LanguageSwitcher />
         <a href="#services" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary-500 hover:bg-gray-50">
