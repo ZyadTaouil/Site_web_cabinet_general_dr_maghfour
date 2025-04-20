@@ -1,7 +1,7 @@
 export const translations = {
   fr: {
     meta: {
-      keywords: "médecin généraliste, cabinet médical, Marrakech, échographie, diabétologie, nutrithérapie, permis de conduire, consultation médicale, Dr. Samira Maghfour"
+      keywords: "médecin généraliste, cabinet médical, Marrakech, échographie, diabétologie, nutrithérapie, permis de conduire, consultation médicale, Dr. Samira Maghfour, médecine générale"
     },
     nav: {
       services: "Services",
@@ -46,10 +46,10 @@ export const translations = {
     },
     about: {
       title: "Dr. Samira Maghfour",
-      description: "Dr. Samira Maghfour, médecin généraliste expérimentée, exerce depuis 30 ans. Spécialisée en planification familiale (contraception, DIU) et nutrithérapie, elle détient également un diplôme universitaire en diabétologie de l'université de Bordeaux. Sa pratique médicale est caractérisée par une approche empathique et des soins personnalisés de haute qualité.",
+      description: "Dr. Samira Maghfour, médecin généraliste expérimentée, exerce depuis 30 ans. Spécialisée en planification familiale (contraception, DIU) et nutrithérapie, elle détient également un diplôme universitaire en diabétologie de l'université de Bordeaux. Sa pratique médicale est caractérisée par une approche empathique et par des soins personnalisés de haute qualité.",
       education: {
         title: "Formation",
-        description: "Diplôme universitaire en planification familiale et certificats en diabétologie et nutrithérapie"
+        description: "Diplôme universitaire en diabétologie et nutrithérapie et certificat en planification familiale"
       },
       experience: {
         title: "Expérience",
