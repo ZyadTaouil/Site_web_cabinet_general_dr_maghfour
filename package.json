@@ -10,7 +10,6 @@
     "preview": "npx vite preview"
   },
   "dependencies": {
-    "google-reviews-widget": "^1.0.3",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.441.0",
     "react": "^18.3.1",
